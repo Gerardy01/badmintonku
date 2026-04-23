@@ -10,6 +10,9 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   title: "Badmintonku | Matchmaker",
   description: "Playful badminton session matchmaking app",
+  icons: {
+    icon: "/icon.svg",
+  },
 };
 
 export default function RootLayout({
